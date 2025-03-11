@@ -1,0 +1,44 @@
+// commentodnastroka
+
+/*
+commentmnogo
+strok
+*/
+
+int a = -10;
+int b;
+b = 20;
+str name = "Test";
+bool ist = true;
+
+print(name);
+
+ist = (a > 5) && (b <= 30);
+a = a + 5 * 3;
+b = b - 3;
+
+
+if (a > b) begin
+    print("a > b");
+end elseif (a == b) begin
+    print("a == b");
+end else begin
+    print("b > a");
+end
+
+while (a < 20) begin
+    a = a + 1;
+    print(a);
+end
+
+for (int i = 0; i < 5; i = i + 1) begin
+    print(i);
+end
+
+print(ist);
+
+if ((a + b) > 30) begin
+    print("Summa bolshe 30");
+end else begin
+    print("Summa ne bolshe 30");
+end
